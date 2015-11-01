@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true,
+        "outFile": "build/game.js"
+    },
+    "filesGlob": [
+        "scripts/**/*.ts",
+        "libs/**/*.ts",
+        "!node_modules/**"
+    ],
+    "files": [
+        "scripts/app.ts",
+        "scripts/Boot.ts",
+        "scripts/Game.ts",
+        "scripts/Level1.ts",
+        "scripts/MainMenu.ts",
+        "scripts/Player.ts",
+        "scripts/Preloader.ts",
+        "libs/phaser/p2.d.ts",
+        "libs/phaser/phaser.comments.d.ts",
+        "libs/phaser/pixi.comments.d.ts"
+    ],
+    "exclude": []
+}
